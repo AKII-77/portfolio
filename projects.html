@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Akilesh A K</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="bracket">[</span>AKILESH.AK<span class="bracket r">]</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="credentials.html">Credentials</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot"></span> Build</p>
+    <h1>Projects that sit at the seam between<br>detection and response.</h1>
+    <p class="sub">Three independent builds — an AI-driven phishing responder, an automated web-attack triage tool, and a hardened campus network — each one closing the gap between an alert and an action.</p>
+  </div>
+  <p class="page-index">P.01 — P.03</p>
+</header>
+
+<section class="section-tight">
+  <div class="wrap">
+
+    <article class="project-entry reveal">
+      <div class="project-meta">
+        <p class="tag">Project 01</p>
+        <p class="role">Generative AI · Blue Team</p>
+      </div>
+      <div class="project-body">
+        <h2>Automated Phishing Response AI Agent</h2>
+        <p class="desc">A generative AI agent that ingests EDR-flagged email, checks it against sender authentication, and closes the loop with automated containment — cutting the distance between a suspicious inbox and a cleared one.</p>
+        <ul class="bullet-list">
+          <li><span class="mk"></span>Verifies sender authenticity by checking DKIM, SPF and DMARC on every ingested EDR email.</li>
+          <li><span class="mk"></span>Cross-references indicators of compromise — IPs, URLs, attachments — against external threat intelligence feeds for fast malicious-activity calls.</li>
+          <li><span class="mk"></span>Triggers automated response: tenant-wide email purges and new EDR blocklist entries, no manual hand-off required.</li>
+          <li><span class="mk"></span>Closes the loop with automated summary reports and notifications for every affected user.</li>
+        </ul>
+        <div class="stack-row">
+          <span class="chip">Generative AI</span>
+          <span class="chip">DKIM / SPF / DMARC</span>
+          <span class="chip">Threat Intel Feeds</span>
+          <span class="chip">EDR Blocklisting</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-entry reveal">
+      <div class="project-meta">
+        <p class="tag">Project 02</p>
+        <p class="role e">Python &amp; Regex · Detection</p>
+      </div>
+      <div class="project-body">
+        <h2>Automating Web Application Attack Analysis</h2>
+        <p class="desc">A web interface built with Python and regex operations to catch application-layer attacks as they happen, then take the resulting indicators straight into open-source intelligence and static analysis.</p>
+        <ul class="bullet-list">
+          <li><span class="mk"></span>Detects XSS, CSRF, RCE, token-based attacks, code/command injection and XML injection automatically.</li>
+          <li><span class="mk"></span>Filters indicators of compromise — executables, webshells (.aspx, .php), hashes, IPs — out of the noise.</li>
+          <li><span class="mk"></span>Checks every extracted IOC against OSINT sources and runs automatic static file analysis.</li>
+        </ul>
+        <div class="stack-row">
+          <span class="chip">Python</span>
+          <span class="chip">Regex</span>
+          <span class="chip">OSINT</span>
+          <span class="chip">Static Analysis</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-entry reveal">
+      <div class="project-meta">
+        <p class="tag">Project 03</p>
+        <p class="role">Infrastructure · Defense</p>
+      </div>
+      <div class="project-body">
+        <h2>Network Security Infrastructure — College Deployment</h2>
+        <p class="desc">A ground-up hardening of a college server environment: software-based perimeter defense plus a honeypot, tuned specifically against web application and flooding attacks.</p>
+        <ul class="bullet-list">
+          <li><span class="mk"></span>Configured software-based IPS, IDS and a web application firewall on the college server.</li>
+          <li><span class="mk"></span>Implemented multiple detection rules purpose-built to defend against flooding attacks.</li>
+          <li><span class="mk"></span>Deployed a honeypot alongside the perimeter stack to observe and study live attack behavior.</li>
+        </ul>
+        <div class="stack-row">
+          <span class="chip">IDS / IPS</span>
+          <span class="chip">WAF</span>
+          <span class="chip">Honeypot</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="fmark">Nagercoil, Kanyakumari, India</p>
+    <div class="flinks">
+      <a href="mailto:akilesh7744@gmail.com">akilesh7744@gmail.com</a>
+      <a href="https://www.linkedin.com/in/akilesh-a-k-235616316/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
